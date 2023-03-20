@@ -19,39 +19,4 @@ export const tasks = [
     title: "The best task3",
     description: "the most task",
   },
-  {
-    id: 4,
-    title: "The best task4",
-    description: "the most task",
-  },
-  {
-    id: 5,
-    title: "The best task5",
-    description: "the most task",
-  },
-  {
-    id: 6,
-    title: "The best task6",
-    description: "the most task",
-  },
-  {
-    id: 7,
-    title: "The best task7",
-    description: "the most task",
-  },
-  {
-    id: 8,
-    title: "The best task8",
-    description: "the most task",
-  },
-  {
-    id: 9,
-    title: "The best task9",
-    description: "the most task",
-  },
-  {
-    id: 10,
-    title: "The best task10",
-    description: "the most task",
-  },
 ];
