@@ -10,14 +10,13 @@ function App() {
     setTasks(data);
   }, []);
 
-  const createTask = (taskTitle) => {
-    console.log(taskTitle)
+  const createTask = (task) => {
     setTasks([
       ...tasks,
       {
-        title: taskTitle,
+        title: task.title,
         id: tasks.length,
-        description: "the best description",
+        description: task.description,
       },
     ]);
   };
