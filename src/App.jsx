@@ -1,14 +1,14 @@
 import { TaskForm, TaskList } from "./components";
-import { useEffect, useState } from "react";
-import { tasks as data } from "./data/task";
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <TaskForm />
-      <TaskList />
-    </>
+    <main className="bg-zinc-900 h-screen">
+      <div className="container mx-auto p-10">
+        <TaskForm />
+        <TaskList />
+      </div>
+    </main>
   );
 }
 
